@@ -33,3 +33,10 @@ function typeOfSum(a, b) {
  let c = a + b;
  return typeof( c );
 }
+```
+.https://www.codewars.com/kata/sleigh-authentication/train/javascript
+function Sleigh() {}
+
+Sleigh.prototype.authenticate = function(name, password) {
+  return name === 'Santa Claus' && password === 'Ho Ho Ho!';
+};
