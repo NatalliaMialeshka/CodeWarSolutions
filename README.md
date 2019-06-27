@@ -26,3 +26,10 @@ function finalGrade (e, p) {
  return 0;
  }
 }
+
+```
+.https://www.codewars.com/kata/type-of-sum/train/javascript
+function typeOfSum(a, b) {
+ let c = a + b;
+ return typeof( c );
+}
