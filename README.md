@@ -1,6 +1,6 @@
 Hello
 
-=========
+
 .https://www.codewars.com/kata/simple-multiplication/train/javascript
 ```
 function simpleMultiplication(n) {
