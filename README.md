@@ -1,8 +1,8 @@
 Hello
 
 
-.https://www.codewars.com/kata/simple-multiplication/train/javascript
-```
+*https://www.codewars.com/kata/simple-multiplication/train/javascript
+```javascript
 function simpleMultiplication(n) {
 if (n%2 === 0){
  return n * 8;
@@ -10,9 +10,9 @@ if (n%2 === 0){
  return n * 9;
   }
 }
-
-.https://www.codewars.com/kata/students-final-grade/train/javascript
 ```
+* https://www.codewars.com/kata/students-final-grade/train/javascript
+```javascript
 function finalGrade (e, p) {
  if (e > 90 || p > 10) {
  return 100;
@@ -26,17 +26,19 @@ function finalGrade (e, p) {
  return 0;
  }
 }
-
 ```
-.https://www.codewars.com/kata/type-of-sum/train/javascript
+```javascript
+* https://www.codewars.com/kata/type-of-sum/train/javascript
 function typeOfSum(a, b) {
  let c = a + b;
  return typeof( c );
 }
 ```
-.https://www.codewars.com/kata/sleigh-authentication/train/javascript
+* https://www.codewars.com/kata/sleigh-authentication/train/javascript
+```javascript
 function Sleigh() {}
 
 Sleigh.prototype.authenticate = function(name, password) {
   return name === 'Santa Claus' && password === 'Ho Ho Ho!';
 };
+```
