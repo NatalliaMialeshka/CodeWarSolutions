@@ -44,3 +44,8 @@ Sleigh.prototype.authenticate = function(name, password) {
 ```
 ==============
 *New Solution
+```javascript
+function noSpace(x){
+return x.replace(/ /g, '');
+}
+```
