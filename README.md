@@ -48,4 +48,20 @@ Sleigh.prototype.authenticate = function(name, password) {
 function noSpace(x){
 return x.replace(/ /g, '');
 }
+```javascript
+function averageString(str) {
+  let dict = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+  let arr = str.split(' ');
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++){
+   if (dict.includes(arr[i])){
+   sum += dict.indexOf(arr[i]);
+   }else{
+   return 'n/a';
+   }
+   }
+  let avg = Math.floor(sum/arr.length);
+  return dict[avg];
+}
 ```
