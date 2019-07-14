@@ -65,3 +65,12 @@ function averageString(str) {
   return dict[avg];
 }
 ```
+```
+*https://www.codewars.com/kata/filter-coffee/train/javascript
+function search(budget, prices) {
+return prices.filter((el) => el <= budget).sort((a, b) => a-b).join();
+
+
+}
+```
+
