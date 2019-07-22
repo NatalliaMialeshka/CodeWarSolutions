@@ -139,3 +139,9 @@ function getRectangleString(w, h) {
 
 }
 ```
+*https://www.codewars.com/kata/convert-to-binary/train/javascript
+function toBinary(n){
+  return +n.toString(2);
+}
+```
+
