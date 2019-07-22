@@ -113,3 +113,20 @@ num = num.toString().split('').sort();
  }
 }
 ```
+*https://www.codewars.com/kata/maximum-triplet-sum-array-series-number-7/train/javascript
+function maxTriSum(numbers){
+ let sum = 0;
+ let arr = [];
+ let res = numbers.sort((a,b) => b - a);
+ for(let i = 0; i < res.length; i++){
+ if(arr.length === 3){
+  break;
+  }
+ if(!arr.includes(res[i])){
+   arr.push(res[i]);
+   sum += res[i];
+   }
+ }
+ return sum;
+}
+```
