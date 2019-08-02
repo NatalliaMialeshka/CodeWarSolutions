@@ -82,3 +82,8 @@ const sumAverage = (arr) => {
   return Math.floor(arr.map(el => el.reduce((a,b) => a+b, 0)/el.length).reduce((a,b) => a+b, 0));
   }
   ```
+*https://www.codewars.com/kata/number-of-people-in-the-bus/train/javascript
+var number = function(busStops){
+ return  busStops.reduce((sum, [a, b]) => (sum + a - b), 0);
+}
+```
