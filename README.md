@@ -65,3 +65,20 @@ function averageString(str) {
   return dict[avg];
 }
 ```
+*https://www.codewars.com/kata/sum-of-array-averages/train/javascript
+const sumAverage = (arr) => {
+  let result = 0;
+  for (let i = 0; i < arr.length; i++){
+  let sum = 0;
+   for (let j = 0; j < arr[i].length; j++){
+    sum += arr[i][j];
+    }
+    result = result + sum/arr[i].length;
+   }
+  return Math.floor(result);
+}
+***
+const sumAverage = (arr) => {
+  return Math.floor(arr.map(el => el.reduce((a,b) => a+b, 0)/el.length).reduce((a,b) => a+b, 0));
+  }
+  ```
