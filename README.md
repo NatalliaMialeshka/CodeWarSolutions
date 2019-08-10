@@ -98,3 +98,12 @@ function digitize(n) {
 return nArr;
 }
 ```
+*https://www.codewars.com/kata/the-office-iv-find-a-meeting-room/train/javascript
+function meeting(x){
+for (let i = 0; i < x.length; i++){
+ if (x[i] === 'O')
+   return x.indexOf(x[i]);
+ }
+ return 'None available!';
+}
+```
