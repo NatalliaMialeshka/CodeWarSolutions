@@ -87,3 +87,14 @@ var number = function(busStops){
  return  busStops.reduce((sum, [a, b]) => (sum + a - b), 0);
 }
 ```
+*https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/train/javascript
+function digitize(n) {
+  let arr = n.toString().split("").reverse();
+  let nArr = [];
+  for (let i = 0; i < arr.length; i++){
+  let a = Number(arr[i]);
+    nArr.push(a);
+  }
+return nArr;
+}
+```
