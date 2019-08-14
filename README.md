@@ -118,3 +118,14 @@ for(let i = 1; i < n; i++){
  return sum.toFixed(2);
 }
 ```
+*https://www.codewars.com/kata/who-likes-it/train/javascript\
+function likes(n) {
+  const l = n.length;
+  if (!l) return "no one likes this";
+  if (l === 1) return `${n[0]} likes this`;
+  if (l === 2) return `${n[0]} and ${n[1]} like this`;
+  if (l === 3) return `${n[0]}, ${n[1]} and ${n[2]} like this`;
+  if (l > 3) return `${n[0]}, ${n[1]} and ${l - 2} others like this`;
+}
+```
+
