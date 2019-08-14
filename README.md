@@ -107,3 +107,14 @@ for (let i = 0; i < x.length; i++){
  return 'None available!';
 }
 ```
+*https://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/train/javascript
+function SeriesSum(n){
+if (!n) return "0.00";
+let sum = 1, j = 4;
+for(let i = 1; i < n; i++){
+ sum += 1/j;
+ j +=3;
+ }
+ return sum.toFixed(2);
+}
+```
